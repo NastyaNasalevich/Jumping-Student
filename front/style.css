@@ -9,6 +9,9 @@ button{
 	color: white;
 	outline: none;
 }
+button:disabled {	
+	background-color: gray;
+}
 .road{
 	display: flex;
 	flex-wrap: wrap;
